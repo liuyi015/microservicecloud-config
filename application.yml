@@ -1,18 +1,18 @@
 spring:
   profiles:
-  	active:
-  	- dev
+    active:
+    - dev
 
 ---
 spring:
-	profiles: dev    #开发环境
-	application:
-		name: microservicecloud-config-snow-dev
+  profiles: dev    #开发环境
+  application:
+    name: microservicecloud-config-snow-dev
 
 ---
 spring:
-	profiles: test  #测试环境
-	application:
-		name: microservicecloud-config-snow-test
+  profiles: test  #测试环境
+  application:
+    name: microservicecloud-config-snow-test
 
 #请保存为Utf-8格式
