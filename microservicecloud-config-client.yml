@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   profiles:
     active:
     - dev
@@ -17,7 +17,7 @@ eureka:
 
 ---
 server:
-  port: 8201
+  port: 8202
 spring:
   profiles: test  #测试环境
   application:
