@@ -32,7 +32,16 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://172.168.65.99:7001/eureka/
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: microservicecloud-config-dept8001   #自定义服务名称信息
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
+info: 
+  app.name: snow-microservicecloud
+  company.name: www.snow.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 
 ---
 server:
@@ -63,6 +72,15 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://172.168.65.99:7001/eureka/
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: microservicecloud-config-dept8001   #自定义服务名称信息
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
+info: 
+  app.name: snow-microservicecloud
+  company.name: www.snow.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 
 #请保存为Utf-8格式
